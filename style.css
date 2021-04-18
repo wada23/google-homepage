@@ -1,0 +1,50 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    background-color: red;
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "left right";
+}
+
+.left {
+    grid-area: left;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-areas: "about store"
+}
+
+.about {
+    grid-area: about;
+}
+
+.store {
+    grid-area: store;
+}
+
+.right {
+    grid-area: right;
+    display: grid;
+    grid-template-columns: 70% 10% 10% 10%;
+    grid-template-areas: "gmail images apps signin"
+}
+
+.gmail {
+    grid-area: gmail;
+    justify-self: right;
+}
+
+.images {
+    grid-area: images;
+}
+
+.apps {
+    grid-area: apps;
+}
+
+.signin {
+    grid-area: signin;
+}
