@@ -4,47 +4,64 @@
 }
 
 header {
-    background-color: red;
     display: grid; 
     grid-template-columns: 50% 50%;
     grid-template-areas: "left right";
+    font-family: arial, sans-serif;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
 }
 
 .left {
     grid-area: left;
-    display: grid;
-    grid-template-columns: 10% 90%;
-    grid-template-areas: "about store"
+    display: flex;
 }
 
-.about {
-    grid-area: about;
-}
-
-.store {
-    grid-area: store;
-}
 
 .right {
     grid-area: right;
     display: grid;
-    grid-template-columns: 70% 10% 10% 10%;
-    grid-template-areas: "gmail images apps signin"
+    justify-self: end;
+}
+
+.right-flex {
+    display: flex;
+}
+
+.about {
+    width: 5em;
+    align-self: center;
+}
+
+.store {
+    width: 5em;
+    align-self: center;
 }
 
 .gmail {
-    grid-area: gmail;
-    justify-self: right;
+    width: 5em;
+    align-self: center;
 }
 
 .images {
-    grid-area: images;
+    width: 5em;
+    align-self: center;
 }
 
 .apps {
-    grid-area: apps;
+    width: 5em;
+    align-self: center;
 }
 
 .signin {
-    grid-area: signin;
+    width: 5em;
+    align-self: center;
 }
+
+.picture-opacity {
+    opacity: 0.75;
+}
+
+
+
