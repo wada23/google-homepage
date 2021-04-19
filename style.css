@@ -3,7 +3,13 @@
     margin: 0 auto;
 }
 
+h1 {
+    height: 200px;
+}
+
 header {
+    height: 200px;
+    align-items: flex-start;
     display: grid; 
     grid-template-columns: 50% 50%;
     grid-template-areas: "left right";
@@ -34,34 +40,56 @@ header {
     align-self: center;
 }
 
+.about:hover {
+    text-decoration: underline;
+}
+
 .store {
     width: 5em;
     align-self: center;
+}
+.store:hover {
+    text-decoration: underline;
 }
 
 .gmail {
     width: 5em;
     align-self: center;
 }
+.gmail:hover {
+    text-decoration: underline;
+}
 
 .images {
     width: 5em;
     align-self: center;
+}
+.images:hover {
+    text-decoration: underline;
 }
 
 .apps {
     width: 5em;
     align-self: center;
 }
+.apps:hover {
+    opacity: 1;
+}
 
 .signin {
     width: 5em;
     align-self: center;
 }
+.signin:hover {
+    text-decoration: underline;
+}
 
 .picture-opacity {
     opacity: 0.75;
 }
+
+
+
 
 
 
