@@ -13,7 +13,9 @@ h1 {
     margin: 0 auto;
     width: 400px;
     height: 30px;
-    border-radius: 15px;    
+    border-radius: 15px;  
+    border-color:teal;
+
 }
 
 #grid-lines {
@@ -31,9 +33,11 @@ h1 {
     width: 200px;
     margin-top: 40px;
     justify-self: end;
-    
-    
-
+    font-size: 14px;
+    color: rgba(0,0,0,.87);
+    border: 1px solid #f8f9fa;
+    border-color: white;
+    background-color: #f8f9fa
 }
 
 .lucky {
@@ -43,89 +47,46 @@ h1 {
     padding: 10px;
     width: 200px;
     margin-top: 40px;
+    font-size: 14px;
+    color: rgba(0,0,0,.87);
+    border: 1px solid #f8f9fa;
+    border-color: white;
+    background-color: #f8f9fa
+
 }
 
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}    
 
-
-header {
-    height: 200px;
-    align-items: flex-start;
-    display: grid; 
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "left right";
+li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    color: rgba(0,0,0,0.87);
+    font-size: 10px;
     font-family: arial, sans-serif;
-    color: #000;
-    opacity: 0.75;
     font-size: 13px;
 }
 
-.left {
-    grid-area: left;
-    display: flex;
+.right-align {
+    float: right;
 }
 
-.right {
-    grid-area: right;
-    display: grid;
-    justify-self: end;
+.opacity {
+    opacity: 0.6;
 }
 
-.right-flex {
-    display: flex;
-}
-
-.about {
-    width: 5em;
-    align-self: center;
-}
-.about:hover {
+li:hover {
     text-decoration: underline;
 }
 
-.store {
-    width: 5em;
-    align-self: center;
-}
-.store:hover {
-    text-decoration: underline;
-}
 
-.gmail {
-    width: 5em;
-    align-self: center;
-}
-.gmail:hover {
-    text-decoration: underline;
-}
 
-.images {
-    width: 5em;
-    align-self: center;
-}
-.images:hover {
-    text-decoration: underline;
-}
-
-.apps {
-    width: 5em;
-    align-self: center;
-}
-.apps:hover {
-    opacity: 1;
-}
-
-.signin {
-    width: 5em;
-    align-self: center;
-}
-.signin:hover {
-    text-decoration: underline;
-}
-
-.picture-opacity {
-    opacity: 0.75;
-}
 
 
 
