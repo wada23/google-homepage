@@ -33,32 +33,38 @@ h1 {
     text-align: center;
 }
 
-
 #bar {
     display: block;
     margin: 0 auto;
-    width: 480px;
-    height: 38px;
+    width:480px;
+    height: 40px;
     border: none;
     font-size: 16px;
+    outline: none;
 }
 
-#lala {
-    display: block;
-    margin: 30px auto;
-    align-items: center;
+#search-box {
+    display: flex;
+    margin: 20px auto;
     width: 580px;
-    height: 46px;
-    border-radius: 25px;
+    height: 44px;
     border: 1px solid lightsteelblue;
+    border-radius: 25px;
 }
 
-#search {
+#img-styling { 
     display: block;
-    align-items: left;
-    text-align: center;
-    opacity: 0.5;
-   
+    margin: 10px;
+    opacity: 0.4;
+}
+
+#voice-logo{
+    display: block;
+    margin: 10px;
+}
+.divbar {
+    display: flex;
+    justify-self: right;
 }
 
 #grid-lines {
