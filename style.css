@@ -62,47 +62,56 @@ h1 {
     display: block;
     margin: 10px;
 }
-.divbar {
-    display: flex;
-    justify-self: right;
-}
 
-#grid-lines {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 30px;
-    grid-template-areas: "search lucky"
-}
-
-.search {
-    grid-area: search;
+#under-bar-lines {
     display: flex;
-    justify-content: center;
-    padding: 10px;
-    width: 200px;
-    margin-top: 40px;
-    justify-self: end;
     font-size: 14px;
-    color: rgba(0,0,0,.87);
-    border: 1px solid #f8f9fa;
-    border-color: white;
-    background-color: #f8f9fa
 }
 
-.lucky {
-    grid-area: lucky;
+
+#search {
     display: flex;
-    justify-content: center;
-    padding: 10px;
-    width: 200px;
-    margin-top: 40px;
+    justify-self: flex-end;
+    margin: 0 auto;
+    padding: 14px;
+    background-color: #f8f9fa;
+    border: none;
     font-size: 14px;
-    color: rgba(0,0,0,.87);
-    border: 1px solid #f8f9fa;
-    border-color: white;
-    background-color: #f8f9fa
-
 }
+#lucky {
+    display: block;
+    margin: 0 auto;
+    padding: 14px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding-top: 8px;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+
+.footer-text {
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    
+}
+
+.left {
+    padding-left: 80px;
+}
+
+.right {
+    padding-right: 80px;
+}
+
+
 
 
 
